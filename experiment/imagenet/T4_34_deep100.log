@@ -1,0 +1,112 @@
+W0907 18:34:36.005000 47092470216896 torch/distributed/run.py:779] 
+W0907 18:34:36.005000 47092470216896 torch/distributed/run.py:779] *****************************************
+W0907 18:34:36.005000 47092470216896 torch/distributed/run.py:779] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0907 18:34:36.005000 47092470216896 torch/distributed/run.py:779] *****************************************
+{"seed": 60, "arch": "preact_resnet18", "resume": null, "dataset": "imagenet", "data_path": "/home/zxc/code/asgl_sum/experiment/imagenet/dataset", "log_path": "./log/imagenet_cut_aug-snn_t4_preact_resnet18_opt_sgdm_wd_2e-05_cas_8", "auto_aug": true, "cutout": true, "device": "cuda:4", "optim": "SGDM", "scheduler": "COSINE", "train_batch_size": 512, "val_batch_size": 512, "lr": 0.2, "wd": 2e-05, "num_epoch": 100, "num_workers": 16, "decay": 0.2, "v_reset": null, "thresh": 1.0, "T": 4, "step_mode": "m", "detach_reset": true, "rate_flag": true, "local_rank": -1, "alp": 0.7, "beta": 0.3}
+{"seed": 60, "arch": "preact_resnet18", "resume": null, "dataset": "imagenet", "data_path": "/home/zxc/code/asgl_sum/experiment/imagenet/dataset", "log_path": "./log/imagenet_cut_aug-snn_t4_preact_resnet18_opt_sgdm_wd_2e-05_cas_9", "auto_aug": true, "cutout": true, "device": "cuda:4", "optim": "SGDM", "scheduler": "COSINE", "train_batch_size": 512, "val_batch_size": 512, "lr": 0.2, "wd": 2e-05, "num_epoch": 100, "num_workers": 16, "decay": 0.2, "v_reset": null, "thresh": 1.0, "T": 4, "step_mode": "m", "detach_reset": true, "rate_flag": true, "local_rank": -1, "alp": 0.7, "beta": 0.3}
+{"seed": 60, "arch": "preact_resnet18", "resume": null, "dataset": "imagenet", "data_path": "/home/zxc/code/asgl_sum/experiment/imagenet/dataset", "log_path": "./log/imagenet_cut_aug-snn_t4_preact_resnet18_opt_sgdm_wd_2e-05_cas_10", "auto_aug": true, "cutout": true, "device": "cuda:4", "optim": "SGDM", "scheduler": "COSINE", "train_batch_size": 512, "val_batch_size": 512, "lr": 0.2, "wd": 2e-05, "num_epoch": 100, "num_workers": 16, "decay": 0.2, "v_reset": null, "thresh": 1.0, "T": 4, "step_mode": "m", "detach_reset": true, "rate_flag": true, "local_rank": -1, "alp": 0.7, "beta": 0.3}
+{"seed": 60, "arch": "preact_resnet18", "resume": null, "dataset": "imagenet", "data_path": "/home/zxc/code/asgl_sum/experiment/imagenet/dataset", "log_path": "./log/imagenet_cut_aug-snn_t4_preact_resnet18_opt_sgdm_wd_2e-05_cas_10", "auto_aug": true, "cutout": true, "device": "cuda:4", "optim": "SGDM", "scheduler": "COSINE", "train_batch_size": 512, "val_batch_size": 512, "lr": 0.2, "wd": 2e-05, "num_epoch": 100, "num_workers": 16, "decay": 0.2, "v_reset": null, "thresh": 1.0, "T": 4, "step_mode": "m", "detach_reset": true, "rate_flag": true, "local_rank": -1, "alp": 0.7, "beta": 0.3}
+{"seed": 60, "arch": "preact_resnet18", "resume": null, "dataset": "imagenet", "data_path": "/home/zxc/code/asgl_sum/experiment/imagenet/dataset", "log_path": "./log/imagenet_cut_aug-snn_t4_preact_resnet18_opt_sgdm_wd_2e-05_cas_11", "auto_aug": true, "cutout": true, "device": "cuda:4", "optim": "SGDM", "scheduler": "COSINE", "train_batch_size": 512, "val_batch_size": 512, "lr": 0.2, "wd": 2e-05, "num_epoch": 100, "num_workers": 16, "decay": 0.2, "v_reset": null, "thresh": 1.0, "T": 4, "step_mode": "m", "detach_reset": true, "rate_flag": true, "local_rank": -1, "alp": 0.7, "beta": 0.3}
+{"seed": 60, "arch": "preact_resnet18", "resume": null, "dataset": "imagenet", "data_path": "/home/zxc/code/asgl_sum/experiment/imagenet/dataset", "log_path": "./log/imagenet_cut_aug-snn_t4_preact_resnet18_opt_sgdm_wd_2e-05_cas_13", "auto_aug": true, "cutout": true, "device": "cuda:4", "optim": "SGDM", "scheduler": "COSINE", "train_batch_size": 512, "val_batch_size": 512, "lr": 0.2, "wd": 2e-05, "num_epoch": 100, "num_workers": 16, "decay": 0.2, "v_reset": null, "thresh": 1.0, "T": 4, "step_mode": "m", "detach_reset": true, "rate_flag": true, "local_rank": -1, "alp": 0.7, "beta": 0.3}
+{"seed": 60, "arch": "preact_resnet18", "resume": null, "dataset": "imagenet", "data_path": "/home/zxc/code/asgl_sum/experiment/imagenet/dataset", "log_path": "./log/imagenet_cut_aug-snn_t4_preact_resnet18_opt_sgdm_wd_2e-05_cas_12", "auto_aug": true, "cutout": true, "device": "cuda:4", "optim": "SGDM", "scheduler": "COSINE", "train_batch_size": 512, "val_batch_size": 512, "lr": 0.2, "wd": 2e-05, "num_epoch": 100, "num_workers": 16, "decay": 0.2, "v_reset": null, "thresh": 1.0, "T": 4, "step_mode": "m", "detach_reset": true, "rate_flag": true, "local_rank": -1, "alp": 0.7, "beta": 0.3}
+{"seed": 60, "arch": "preact_resnet18", "resume": null, "dataset": "imagenet", "data_path": "/home/zxc/code/asgl_sum/experiment/imagenet/dataset", "log_path": "./log/imagenet_cut_aug-snn_t4_preact_resnet18_opt_sgdm_wd_2e-05_cas_14", "auto_aug": true, "cutout": true, "device": "cuda:4", "optim": "SGDM", "scheduler": "COSINE", "train_batch_size": 512, "val_batch_size": 512, "lr": 0.2, "wd": 2e-05, "num_epoch": 100, "num_workers": 16, "decay": 0.2, "v_reset": null, "thresh": 1.0, "T": 4, "step_mode": "m", "detach_reset": true, "rate_flag": true, "local_rank": -1, "alp": 0.7, "beta": 0.3}
+Epoch 000: train loss nan, test loss 4.23557, train acc 10.04232, test acc 17.51200, Saved custom_model..  with acc 17.51200 in the epoch 000
+Epoch 001: train loss 12.27359, test loss 3.17063, train acc 24.70332, test acc 32.18800, Saved custom_model..  with acc 32.18800 in the epoch 001
+Epoch 002: train loss 10.68684, test loss 2.75945, train acc 32.90552, test acc 39.32600, Saved custom_model..  with acc 39.32600 in the epoch 002
+Epoch 003: train loss 9.75266, test loss 2.53403, train acc 38.06675, test acc 43.15000, Saved custom_model..  with acc 43.15000 in the epoch 003
+Epoch 004: train loss 9.15639, test loss 2.33545, train acc 41.53132, test acc 46.65600, Saved custom_model..  with acc 46.65600 in the epoch 004
+Epoch 005: train loss 8.71344, test loss 2.24917, train acc 44.07486, test acc 48.68600, Saved custom_model..  with acc 48.68600 in the epoch 005
+Epoch 006: train loss 8.39813, test loss 2.11380, train acc 46.01653, test acc 50.91600, Saved custom_model..  with acc 50.91600 in the epoch 006
+Epoch 007: train loss 8.14558, test loss 2.10695, train acc 47.55621, test acc 51.37800, Saved custom_model..  with acc 51.37800 in the epoch 007
+Epoch 008: train loss 7.94763, test loss 1.97086, train acc 48.72928, test acc 53.74000, Saved custom_model..  with acc 53.74000 in the epoch 008
+Epoch 009: train loss 7.77885, test loss 1.96686, train acc 49.72845, test acc 53.81800, Saved custom_model..  with acc 53.81800 in the epoch 009
+Epoch 010: train loss 7.63706, test loss 1.91654, train acc 50.63497, test acc 55.10600, Saved custom_model..  with acc 55.10600 in the epoch 010
+Epoch 011: train loss 7.51722, test loss 1.87494, train acc 51.36196, test acc 55.68000, Saved custom_model..  with acc 55.68000 in the epoch 011
+Epoch 012: train loss 7.40932, test loss 1.84259, train acc 52.09520, test acc 56.23200, Saved custom_model..  with acc 56.23200 in the epoch 012
+Epoch 013: train loss 7.31627, test loss 1.82799, train acc 52.63142, test acc 56.45600, Saved custom_model..  with acc 56.45600 in the epoch 013
+Epoch 014: train loss 7.22613, test loss 1.80303, train acc 53.21745, test acc 57.05400, Saved custom_model..  with acc 57.05400 in the epoch 014
+Epoch 015: train loss 7.16564, test loss 1.78323, train acc 53.56542, test acc 57.43800, Saved custom_model..  with acc 57.43800 in the epoch 015
+Epoch 016: train loss 7.09230, test loss 1.82681, train acc 54.06247, test acc 56.78600, Saved custom_model..  with acc 57.43800 in the epoch 015
+Epoch 017: train loss 7.03952, test loss 1.73191, train acc 54.39380, test acc 58.60000, Saved custom_model..  with acc 58.60000 in the epoch 017
+Epoch 018: train loss 6.98729, test loss 1.75134, train acc 54.70844, test acc 58.24600, Saved custom_model..  with acc 58.60000 in the epoch 017
+Epoch 019: train loss 6.93181, test loss 1.74864, train acc 55.03041, test acc 58.01200, Saved custom_model..  with acc 58.60000 in the epoch 017
+Epoch 020: train loss 6.87268, test loss 1.71455, train acc 55.42357, test acc 58.88000, Saved custom_model..  with acc 58.88000 in the epoch 020
+Epoch 021: train loss 6.82508, test loss 1.70920, train acc 55.64883, test acc 59.19600, Saved custom_model..  with acc 59.19600 in the epoch 021
+Epoch 022: train loss 6.78663, test loss 1.70967, train acc 56.00967, test acc 58.96000, Saved custom_model..  with acc 59.19600 in the epoch 021
+Epoch 023: train loss 6.74979, test loss 1.69188, train acc 56.23384, test acc 59.36600, Saved custom_model..  with acc 59.36600 in the epoch 023
+Epoch 024: train loss 6.71045, test loss 1.68354, train acc 56.45450, test acc 59.62000, Saved custom_model..  with acc 59.62000 in the epoch 024
+Epoch 025: train loss 6.66470, test loss 1.63523, train acc 56.79317, test acc 60.62200, Saved custom_model..  with acc 60.62200 in the epoch 025
+Epoch 026: train loss 6.63533, test loss 1.63951, train acc 56.98308, test acc 60.60200, Saved custom_model..  with acc 60.62200 in the epoch 025
+Epoch 027: train loss 6.59864, test loss 1.68876, train acc 57.15933, test acc 59.75600, Saved custom_model..  with acc 60.62200 in the epoch 025
+Epoch 028: train loss 6.56516, test loss 1.63626, train acc 57.42221, test acc 60.53800, Saved custom_model..  with acc 60.62200 in the epoch 025
+Epoch 029: train loss 6.52274, test loss 1.63437, train acc 57.62827, test acc 60.48200, Saved custom_model..  with acc 60.62200 in the epoch 025
+Epoch 030: train loss 6.49570, test loss 1.66287, train acc 57.79000, test acc 60.00200, Saved custom_model..  with acc 60.62200 in the epoch 025
+Epoch 031: train loss 6.45876, test loss 1.60866, train acc 58.09605, test acc 61.16200, Saved custom_model..  with acc 61.16200 in the epoch 031
+Epoch 032: train loss 6.43534, test loss 1.57451, train acc 58.21586, test acc 62.11800, Saved custom_model..  with acc 62.11800 in the epoch 032
+Epoch 033: train loss 6.40763, test loss 1.58524, train acc 58.42138, test acc 61.61000, Saved custom_model..  with acc 62.11800 in the epoch 032
+Epoch 034: train loss 6.36368, test loss 1.59922, train acc 58.73976, test acc 61.47800, Saved custom_model..  with acc 62.11800 in the epoch 032
+Epoch 035: train loss 6.34245, test loss 1.59777, train acc 58.83546, test acc 61.35400, Saved custom_model..  with acc 62.11800 in the epoch 032
+Epoch 036: train loss 6.31090, test loss 1.59424, train acc 59.04760, test acc 61.68400, Saved custom_model..  with acc 62.11800 in the epoch 032
+Epoch 037: train loss 6.28130, test loss 1.56266, train acc 59.23009, test acc 62.39200, Saved custom_model..  with acc 62.39200 in the epoch 037
+Epoch 038: train loss 6.25600, test loss 1.56145, train acc 59.46948, test acc 62.03000, Saved custom_model..  with acc 62.39200 in the epoch 037
+Epoch 039: train loss 6.22140, test loss 1.57075, train acc 59.62270, test acc 61.96000, Saved custom_model..  with acc 62.39200 in the epoch 037
+Epoch 040: train loss 6.19007, test loss 1.50541, train acc 59.81713, test acc 63.36800, Saved custom_model..  with acc 63.36800 in the epoch 040
+Epoch 041: train loss 6.16307, test loss 1.53903, train acc 59.98566, test acc 62.60400, Saved custom_model..  with acc 63.36800 in the epoch 040
+Epoch 042: train loss 6.13666, test loss 1.55842, train acc 60.18821, test acc 62.06000, Saved custom_model..  with acc 63.36800 in the epoch 040
+Epoch 043: train loss 6.09978, test loss 1.54227, train acc 60.45570, test acc 62.64000, Saved custom_model..  with acc 63.36800 in the epoch 040
+Epoch 044: train loss 6.07002, test loss 1.52258, train acc 60.63694, test acc 63.09400, Saved custom_model..  with acc 63.36800 in the epoch 040
+Epoch 045: train loss 6.04006, test loss 1.53139, train acc 60.80983, test acc 62.77000, Saved custom_model..  with acc 63.36800 in the epoch 040
+Epoch 046: train loss 6.01188, test loss 1.51819, train acc 61.00121, test acc 62.95000, Saved custom_model..  with acc 63.36800 in the epoch 040
+Epoch 047: train loss 5.98868, test loss 1.49765, train acc 61.15669, test acc 63.47600, Saved custom_model..  with acc 63.47600 in the epoch 047
+Epoch 048: train loss 5.95519, test loss 1.50360, train acc 61.42996, test acc 63.21600, Saved custom_model..  with acc 63.47600 in the epoch 047
+Epoch 049: train loss 5.93472, test loss 1.47342, train acc 61.52651, test acc 64.11200, Saved custom_model..  with acc 64.11200 in the epoch 049
+Epoch 050: train loss 5.89867, test loss 1.46420, train acc 61.77300, test acc 64.02200, Saved custom_model..  with acc 64.11200 in the epoch 049
+Epoch 051: train loss 5.87216, test loss 1.47739, train acc 61.97657, test acc 63.99000, Saved custom_model..  with acc 64.11200 in the epoch 049
+Epoch 052: train loss 5.83709, test loss 1.47563, train acc 62.15719, test acc 63.84400, Saved custom_model..  with acc 64.11200 in the epoch 049
+Epoch 053: train loss 5.80772, test loss 1.48874, train acc 62.39611, test acc 63.70600, Saved custom_model..  with acc 64.11200 in the epoch 049
+Epoch 054: train loss 5.77990, test loss 1.46003, train acc 62.59476, test acc 64.31600, Saved custom_model..  with acc 64.31600 in the epoch 054
+Epoch 055: train loss 5.75007, test loss 1.42940, train acc 62.75945, test acc 65.00200, Saved custom_model..  with acc 65.00200 in the epoch 055
+Epoch 056: train loss 5.71939, test loss 1.44269, train acc 63.00142, test acc 64.70000, Saved custom_model..  with acc 65.00200 in the epoch 055
+Epoch 057: train loss 5.67884, test loss 1.42019, train acc 63.28795, test acc 65.22600, Saved custom_model..  with acc 65.22600 in the epoch 057
+Epoch 058: train loss 5.65665, test loss 1.40788, train acc 63.42041, test acc 65.35799, Saved custom_model..  with acc 65.35799 in the epoch 058
+Epoch 059: train loss 5.63132, test loss 1.40183, train acc 63.59346, test acc 65.50600, Saved custom_model..  with acc 65.50600 in the epoch 059
+Epoch 060: train loss 5.58927, test loss 1.44358, train acc 63.87484, test acc 64.75000, Saved custom_model..  with acc 65.50600 in the epoch 059
+Epoch 061: train loss 5.56107, test loss 1.39170, train acc 64.13125, test acc 65.78999, Saved custom_model..  with acc 65.78999 in the epoch 061
+Epoch 062: train loss 5.51656, test loss 1.37919, train acc 64.39796, test acc 66.00400, Saved custom_model..  with acc 66.00400 in the epoch 062
+Epoch 063: train loss 5.49547, test loss 1.37716, train acc 64.56569, test acc 66.20200, Saved custom_model..  with acc 66.20200 in the epoch 063
+Epoch 064: train loss 5.46085, test loss 1.42765, train acc 64.80110, test acc 65.01801, Saved custom_model..  with acc 66.20200 in the epoch 063
+Epoch 065: train loss 5.42787, test loss 1.36927, train acc 65.02043, test acc 66.38400, Saved custom_model..  with acc 66.38400 in the epoch 065
+Epoch 066: train loss 5.39169, test loss 1.38226, train acc 65.24000, test acc 66.04400, Saved custom_model..  with acc 66.38400 in the epoch 065
+Epoch 067: train loss 5.36183, test loss 1.35203, train acc 65.49250, test acc 66.64799, Saved custom_model..  with acc 66.64799 in the epoch 067
+Epoch 068: train loss 5.32958, test loss 1.34693, train acc 65.76405, test acc 67.00000, Saved custom_model..  with acc 67.00000 in the epoch 068
+Epoch 069: train loss 5.28543, test loss 1.34365, train acc 66.02654, test acc 66.81799, Saved custom_model..  with acc 67.00000 in the epoch 068
+Epoch 070: train loss 5.26144, test loss 1.33778, train acc 66.23175, test acc 67.27400, Saved custom_model..  with acc 67.27400 in the epoch 070
+Epoch 071: train loss 5.22563, test loss 1.31668, train acc 66.47255, test acc 67.59200, Saved custom_model..  with acc 67.59200 in the epoch 071
+Epoch 072: train loss 5.18672, test loss 1.31241, train acc 66.72528, test acc 67.61401, Saved custom_model..  with acc 67.61401 in the epoch 072
+Epoch 073: train loss 5.15023, test loss 1.31610, train acc 66.99676, test acc 67.50800, Saved custom_model..  with acc 67.61401 in the epoch 072
+Epoch 074: train loss 5.10630, test loss 1.29753, train acc 67.33083, test acc 68.05801, Saved custom_model..  with acc 68.05801 in the epoch 074
+Epoch 075: train loss 5.08856, test loss 1.28805, train acc 67.42824, test acc 68.20800, Saved custom_model..  with acc 68.20800 in the epoch 075
+Epoch 076: train loss 5.04642, test loss 1.31909, train acc 67.74171, test acc 67.59400, Saved custom_model..  with acc 68.20800 in the epoch 075
+Epoch 077: train loss 5.01263, test loss 1.27474, train acc 67.96658, test acc 68.63200, Saved custom_model..  with acc 68.63200 in the epoch 077
+Epoch 078: train loss 4.97913, test loss 1.26881, train acc 68.19058, test acc 68.72000, Saved custom_model..  with acc 68.72000 in the epoch 078
+Epoch 079: train loss 4.94917, test loss 1.26349, train acc 68.41351, test acc 68.84000, Saved custom_model..  with acc 68.84000 in the epoch 079
+Epoch 080: train loss 4.91040, test loss 1.25413, train acc 68.69614, test acc 69.18000, Saved custom_model..  with acc 69.18000 in the epoch 080
+Epoch 081: train loss 4.88342, test loss 1.24793, train acc 68.91133, test acc 68.98801, Saved custom_model..  with acc 69.18000 in the epoch 080
+Epoch 082: train loss 4.84273, test loss 1.24525, train acc 69.14238, test acc 69.20400, Saved custom_model..  with acc 69.20400 in the epoch 082
+Epoch 083: train loss 4.82191, test loss 1.23494, train acc 69.30379, test acc 69.46600, Saved custom_model..  with acc 69.46600 in the epoch 083
+Epoch 084: train loss 4.78315, test loss 1.22966, train acc 69.56278, test acc 69.53000, Saved custom_model..  with acc 69.53000 in the epoch 084
+Epoch 085: train loss 4.75440, test loss 1.22465, train acc 69.80209, test acc 69.64999, Saved custom_model..  with acc 69.64999 in the epoch 085
+Epoch 086: train loss 4.72560, test loss 1.21812, train acc 69.96647, test acc 69.92600, Saved custom_model..  with acc 69.92600 in the epoch 086
+Epoch 087: train loss 4.70362, test loss 1.21330, train acc 70.13538, test acc 69.90800, Saved custom_model..  with acc 69.92600 in the epoch 086
+Epoch 088: train loss 4.67356, test loss 1.20444, train acc 70.35378, test acc 70.12601, Saved custom_model..  with acc 70.12601 in the epoch 088
+Epoch 089: train loss 4.65078, test loss 1.20590, train acc 70.48872, test acc 70.24400, Saved custom_model..  with acc 70.24400 in the epoch 089
+Epoch 090: train loss 4.62564, test loss 1.19633, train acc 70.65498, test acc 70.21000, Saved custom_model..  with acc 70.24400 in the epoch 089
+Epoch 091: train loss 4.59954, test loss 1.19578, train acc 70.86823, test acc 70.20200, Saved custom_model..  with acc 70.24400 in the epoch 089
+Epoch 092: train loss 4.58173, test loss 1.19266, train acc 70.96048, test acc 70.43800, Saved custom_model..  with acc 70.43800 in the epoch 092
+Epoch 093: train loss 4.57326, test loss 1.19165, train acc 71.04002, test acc 70.21600, Saved custom_model..  with acc 70.43800 in the epoch 092
+Epoch 094: train loss 4.55625, test loss 1.18843, train acc 71.14586, test acc 70.40601, Saved custom_model..  with acc 70.43800 in the epoch 092
+Epoch 095: train loss 4.54916, test loss 1.18621, train acc 71.17904, test acc 70.61600, Saved custom_model..  with acc 70.61600 in the epoch 095
+Epoch 096: train loss 4.54244, test loss 1.18330, train acc 71.25607, test acc 70.70400, Saved custom_model..  with acc 70.70400 in the epoch 096
+Epoch 097: train loss 4.52944, test loss 1.18505, train acc 71.36894, test acc 70.57600, Saved custom_model..  with acc 70.70400 in the epoch 096
+Epoch 098: train loss 4.52403, test loss 1.18120, train acc 71.34209, test acc 70.65000, Saved custom_model..  with acc 70.70400 in the epoch 096
+Epoch 099: train loss 4.52364, test loss 1.18276, train acc 71.38143, test acc 70.49000, Saved custom_model..  with acc 70.70400 in the epoch 096

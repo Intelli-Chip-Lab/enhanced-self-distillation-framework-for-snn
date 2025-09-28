@@ -1,0 +1,606 @@
+nohup: ignoring input
+{"seed": 60, "arch": "resnet18", "dataset": "CIFAR100", "data_path": "experiment/cifar/datasets", "log_path": "./log/cifar100_cut_aug-snn_t6_resnet18_opt_sgdm_wd_0.0005_cas_6", "auto_aug": true, "cutout": true, "resume": null, "train_batch_size": 128, "val_batch_size": 128, "device": "cuda:0", "lr": 0.1, "wd": 0.0005, "num_epoch": 300, "num_workers": 8, "optim": "SGDM", "decay": 0.2, "v_reset": null, "thresh": 1.0, "train_thresh": false, "T": 6, "scheduler": "COSINE", "detach_reset": true, "alp": 1.0, "beta": 0.3}
+Files already downloaded and verified
+Files already downloaded and verified
+Epoch 000: train loss nan, test loss 4.09355, train acc 3.76800,test acc 6.12000, Saved custom_model..  with best acc 6.12000 in the epoch 000
+
+Epoch 001: train loss 16.59534, test loss 3.76425, train acc 6.58000,test acc 11.99000, Saved custom_model..  with best acc 11.99000 in the epoch 001
+
+Epoch 002: train loss 15.81588, test loss 3.64292, train acc 9.57600,test acc 14.20000, Saved custom_model..  with best acc 14.20000 in the epoch 002
+
+Epoch 003: train loss 15.07621, test loss 3.38230, train acc 12.35200,test acc 17.08000, Saved custom_model..  with best acc 17.08000 in the epoch 003
+
+Epoch 004: train loss 14.11398, test loss 3.12162, train acc 15.85400,test acc 22.11000, Saved custom_model..  with best acc 22.11000 in the epoch 004
+
+Epoch 005: train loss 13.35432, test loss 2.87986, train acc 18.72600,test acc 25.95000, Saved custom_model..  with best acc 25.95000 in the epoch 005
+
+Epoch 006: train loss 12.77009, test loss 3.13298, train acc 21.35800,test acc 23.05000, Saved custom_model..  with best acc 25.95000 in the epoch 005
+
+Epoch 007: train loss 12.31265, test loss 2.98919, train acc 23.77600,test acc 24.53000, Saved custom_model..  with best acc 25.95000 in the epoch 005
+
+Epoch 008: train loss 11.93249, test loss 2.66470, train acc 25.54800,test acc 29.30000, Saved custom_model..  with best acc 29.30000 in the epoch 008
+
+Epoch 009: train loss 11.57914, test loss 2.61260, train acc 27.19000,test acc 32.12000, Saved custom_model..  with best acc 32.12000 in the epoch 009
+
+Epoch 010: train loss 11.33782, test loss 2.51335, train acc 28.69000,test acc 32.63000, Saved custom_model..  with best acc 32.63000 in the epoch 010
+
+Epoch 011: train loss 11.20022, test loss 2.29964, train acc 29.51000,test acc 38.55000, Saved custom_model..  with best acc 38.55000 in the epoch 011
+
+Epoch 012: train loss 10.94673, test loss 2.48368, train acc 31.00200,test acc 34.79000, Saved custom_model..  with best acc 38.55000 in the epoch 011
+
+Epoch 013: train loss 10.77551, test loss 2.58526, train acc 31.68200,test acc 34.78000, Saved custom_model..  with best acc 38.55000 in the epoch 011
+
+Epoch 014: train loss 10.58218, test loss 2.48460, train acc 32.80000,test acc 36.76000, Saved custom_model..  with best acc 38.55000 in the epoch 011
+
+Epoch 015: train loss 10.40780, test loss 2.17815, train acc 33.88600,test acc 41.36000, Saved custom_model..  with best acc 41.36000 in the epoch 015
+
+Epoch 016: train loss 10.24564, test loss 2.10543, train acc 34.74000,test acc 42.95000, Saved custom_model..  with best acc 42.95000 in the epoch 016
+
+Epoch 017: train loss 10.11176, test loss 2.21176, train acc 35.63400,test acc 40.91000, Saved custom_model..  with best acc 42.95000 in the epoch 016
+
+Epoch 018: train loss 10.01770, test loss 2.29834, train acc 36.45600,test acc 39.74000, Saved custom_model..  with best acc 42.95000 in the epoch 016
+
+Epoch 019: train loss 9.88211, test loss 2.45231, train acc 37.07600,test acc 36.55000, Saved custom_model..  with best acc 42.95000 in the epoch 016
+
+Epoch 020: train loss 9.75005, test loss 2.04585, train acc 37.92600,test acc 44.43000, Saved custom_model..  with best acc 44.43000 in the epoch 020
+
+Epoch 021: train loss 9.69303, test loss 2.24463, train acc 38.12400,test acc 39.57000, Saved custom_model..  with best acc 44.43000 in the epoch 020
+
+Epoch 022: train loss 9.65202, test loss 2.10168, train acc 38.51800,test acc 42.62000, Saved custom_model..  with best acc 44.43000 in the epoch 020
+
+Epoch 023: train loss 9.58311, test loss 2.15766, train acc 39.16200,test acc 42.94000, Saved custom_model..  with best acc 44.43000 in the epoch 020
+
+Epoch 024: train loss 9.47120, test loss 2.03185, train acc 39.70000,test acc 44.96000, Saved custom_model..  with best acc 44.96000 in the epoch 024
+
+Epoch 025: train loss 9.36802, test loss 2.18963, train acc 40.24600,test acc 42.61000, Saved custom_model..  with best acc 44.96000 in the epoch 024
+
+Epoch 026: train loss 9.34162, test loss 2.17671, train acc 40.63600,test acc 41.63000, Saved custom_model..  with best acc 44.96000 in the epoch 024
+
+Epoch 027: train loss 9.33131, test loss 2.02980, train acc 40.46400,test acc 45.80000, Saved custom_model..  with best acc 45.80000 in the epoch 027
+
+Epoch 028: train loss 9.26428, test loss 1.83593, train acc 40.92800,test acc 49.56000, Saved custom_model..  with best acc 49.56000 in the epoch 028
+
+Epoch 029: train loss 9.21797, test loss 1.91674, train acc 41.39200,test acc 47.22000, Saved custom_model..  with best acc 49.56000 in the epoch 028
+
+Epoch 030: train loss 9.16370, test loss 2.02782, train acc 41.69200,test acc 45.70000, Saved custom_model..  with best acc 49.56000 in the epoch 028
+
+Epoch 031: train loss 9.09914, test loss 1.96066, train acc 42.28800,test acc 46.86000, Saved custom_model..  with best acc 49.56000 in the epoch 028
+
+Epoch 032: train loss 9.08545, test loss 1.75718, train acc 42.24400,test acc 51.74000, Saved custom_model..  with best acc 51.74000 in the epoch 032
+
+Epoch 033: train loss 9.01135, test loss 1.90351, train acc 42.84600,test acc 49.10000, Saved custom_model..  with best acc 51.74000 in the epoch 032
+
+Epoch 034: train loss 8.98598, test loss 1.83321, train acc 42.99600,test acc 49.40000, Saved custom_model..  with best acc 51.74000 in the epoch 032
+
+Epoch 035: train loss 8.94145, test loss 1.71193, train acc 43.27200,test acc 52.36000, Saved custom_model..  with best acc 52.36000 in the epoch 035
+
+Epoch 036: train loss 8.92456, test loss 1.91125, train acc 43.47600,test acc 48.51000, Saved custom_model..  with best acc 52.36000 in the epoch 035
+
+Epoch 037: train loss 8.94834, test loss 1.79240, train acc 43.62800,test acc 50.42000, Saved custom_model..  with best acc 52.36000 in the epoch 035
+
+Epoch 038: train loss 8.87388, test loss 1.87967, train acc 43.94000,test acc 49.58000, Saved custom_model..  with best acc 52.36000 in the epoch 035
+
+Epoch 039: train loss 8.86660, test loss 1.86808, train acc 43.48200,test acc 49.29000, Saved custom_model..  with best acc 52.36000 in the epoch 035
+
+Epoch 040: train loss 8.77471, test loss 1.83053, train acc 44.33600,test acc 49.14000, Saved custom_model..  with best acc 52.36000 in the epoch 035
+
+Epoch 041: train loss 8.76687, test loss 1.76103, train acc 44.20400,test acc 51.52000, Saved custom_model..  with best acc 52.36000 in the epoch 035
+
+Epoch 042: train loss 8.78613, test loss 1.96747, train acc 44.41400,test acc 47.24000, Saved custom_model..  with best acc 52.36000 in the epoch 035
+
+Epoch 043: train loss 8.75538, test loss 1.82324, train acc 44.51200,test acc 49.64000, Saved custom_model..  with best acc 52.36000 in the epoch 035
+
+Epoch 044: train loss 8.70419, test loss 1.82203, train acc 44.97000,test acc 50.14000, Saved custom_model..  with best acc 52.36000 in the epoch 035
+
+Epoch 045: train loss 8.65875, test loss 1.81196, train acc 45.23400,test acc 51.08000, Saved custom_model..  with best acc 52.36000 in the epoch 035
+
+Epoch 046: train loss 8.67008, test loss 1.70480, train acc 45.02000,test acc 53.00000, Saved custom_model..  with best acc 53.00000 in the epoch 046
+
+Epoch 047: train loss 8.63641, test loss 1.77931, train acc 45.27000,test acc 50.66000, Saved custom_model..  with best acc 53.00000 in the epoch 046
+
+Epoch 048: train loss 8.62714, test loss 1.80170, train acc 45.53000,test acc 50.85000, Saved custom_model..  with best acc 53.00000 in the epoch 046
+
+Epoch 049: train loss 8.63406, test loss 1.65310, train acc 45.56800,test acc 54.09000, Saved custom_model..  with best acc 54.09000 in the epoch 049
+
+Epoch 050: train loss 8.55025, test loss 1.74138, train acc 45.96600,test acc 52.49000, Saved custom_model..  with best acc 54.09000 in the epoch 049
+
+Epoch 051: train loss 8.57526, test loss 1.80359, train acc 45.82000,test acc 51.43000, Saved custom_model..  with best acc 54.09000 in the epoch 049
+
+Epoch 052: train loss 8.52615, test loss 1.69537, train acc 46.14200,test acc 53.33000, Saved custom_model..  with best acc 54.09000 in the epoch 049
+
+Epoch 053: train loss 8.53699, test loss 1.78065, train acc 46.29600,test acc 52.16000, Saved custom_model..  with best acc 54.09000 in the epoch 049
+
+Epoch 054: train loss 8.53308, test loss 1.67166, train acc 45.95600,test acc 53.83000, Saved custom_model..  with best acc 54.09000 in the epoch 049
+
+Epoch 055: train loss 8.49586, test loss 1.71401, train acc 46.30000,test acc 53.34000, Saved custom_model..  with best acc 54.09000 in the epoch 049
+
+Epoch 056: train loss 8.44979, test loss 1.88159, train acc 46.55200,test acc 49.13000, Saved custom_model..  with best acc 54.09000 in the epoch 049
+
+Epoch 057: train loss 8.40804, test loss 1.68114, train acc 46.84800,test acc 53.30000, Saved custom_model..  with best acc 54.09000 in the epoch 049
+
+Epoch 058: train loss 8.44450, test loss 1.80584, train acc 46.85200,test acc 51.02000, Saved custom_model..  with best acc 54.09000 in the epoch 049
+
+Epoch 059: train loss 8.42843, test loss 1.79982, train acc 46.99000,test acc 51.19000, Saved custom_model..  with best acc 54.09000 in the epoch 049
+
+Epoch 060: train loss 8.41484, test loss 1.76857, train acc 47.01800,test acc 51.63000, Saved custom_model..  with best acc 54.09000 in the epoch 049
+
+Epoch 061: train loss 8.34020, test loss 1.58232, train acc 47.34800,test acc 56.46000, Saved custom_model..  with best acc 56.46000 in the epoch 061
+
+Epoch 062: train loss 8.34929, test loss 1.76407, train acc 47.57600,test acc 51.98000, Saved custom_model..  with best acc 56.46000 in the epoch 061
+
+Epoch 063: train loss 8.38368, test loss 1.63496, train acc 47.37200,test acc 54.65000, Saved custom_model..  with best acc 56.46000 in the epoch 061
+
+Epoch 064: train loss 8.34376, test loss 1.64900, train acc 47.56600,test acc 54.83000, Saved custom_model..  with best acc 56.46000 in the epoch 061
+
+Epoch 065: train loss 8.34297, test loss 1.58068, train acc 47.01600,test acc 56.19000, Saved custom_model..  with best acc 56.46000 in the epoch 061
+
+Epoch 066: train loss 8.32554, test loss 1.55442, train acc 47.66400,test acc 56.83000, Saved custom_model..  with best acc 56.83000 in the epoch 066
+
+Epoch 067: train loss 8.29990, test loss 1.59419, train acc 47.84200,test acc 55.45000, Saved custom_model..  with best acc 56.83000 in the epoch 066
+
+Epoch 068: train loss 8.32509, test loss 1.57474, train acc 47.65600,test acc 56.57000, Saved custom_model..  with best acc 56.83000 in the epoch 066
+
+Epoch 069: train loss 8.26557, test loss 1.75277, train acc 47.99600,test acc 52.29000, Saved custom_model..  with best acc 56.83000 in the epoch 066
+
+Epoch 070: train loss 8.24372, test loss 1.72016, train acc 47.86800,test acc 53.07000, Saved custom_model..  with best acc 56.83000 in the epoch 066
+
+Epoch 071: train loss 8.23196, test loss 1.78640, train acc 48.10400,test acc 51.61000, Saved custom_model..  with best acc 56.83000 in the epoch 066
+
+Epoch 072: train loss 8.22724, test loss 1.60799, train acc 48.28800,test acc 55.21000, Saved custom_model..  with best acc 56.83000 in the epoch 066
+
+Epoch 073: train loss 8.17487, test loss 1.63793, train acc 48.47800,test acc 54.87000, Saved custom_model..  with best acc 56.83000 in the epoch 066
+
+Epoch 074: train loss 8.16147, test loss 1.55253, train acc 48.43400,test acc 56.95000, Saved custom_model..  with best acc 56.95000 in the epoch 074
+
+Epoch 075: train loss 8.20004, test loss 1.62965, train acc 48.51000,test acc 55.14000, Saved custom_model..  with best acc 56.95000 in the epoch 074
+
+Epoch 076: train loss 8.12894, test loss 1.47301, train acc 49.03000,test acc 58.91000, Saved custom_model..  with best acc 58.91000 in the epoch 076
+
+Epoch 077: train loss 8.15531, test loss 1.69308, train acc 48.75200,test acc 54.38000, Saved custom_model..  with best acc 58.91000 in the epoch 076
+
+Epoch 078: train loss 8.10825, test loss 1.57555, train acc 48.93400,test acc 55.85000, Saved custom_model..  with best acc 58.91000 in the epoch 076
+
+Epoch 079: train loss 8.11331, test loss 1.54327, train acc 48.93600,test acc 57.31000, Saved custom_model..  with best acc 58.91000 in the epoch 076
+
+Epoch 080: train loss 8.08558, test loss 1.55709, train acc 49.29800,test acc 56.53000, Saved custom_model..  with best acc 58.91000 in the epoch 076
+
+Epoch 081: train loss 8.04787, test loss 1.54242, train acc 49.47400,test acc 57.96000, Saved custom_model..  with best acc 58.91000 in the epoch 076
+
+Epoch 082: train loss 8.03366, test loss 1.59940, train acc 49.15400,test acc 55.76000, Saved custom_model..  with best acc 58.91000 in the epoch 076
+
+Epoch 083: train loss 8.06652, test loss 1.52536, train acc 48.95600,test acc 57.89000, Saved custom_model..  with best acc 58.91000 in the epoch 076
+
+Epoch 084: train loss 7.99637, test loss 1.53703, train acc 49.60800,test acc 57.41000, Saved custom_model..  with best acc 58.91000 in the epoch 076
+
+Epoch 085: train loss 8.01820, test loss 1.51576, train acc 49.55800,test acc 58.11000, Saved custom_model..  with best acc 58.91000 in the epoch 076
+
+Epoch 086: train loss 8.02913, test loss 1.61141, train acc 49.42600,test acc 56.21000, Saved custom_model..  with best acc 58.91000 in the epoch 076
+
+Epoch 087: train loss 7.99066, test loss 1.56099, train acc 49.71200,test acc 56.54000, Saved custom_model..  with best acc 58.91000 in the epoch 076
+
+Epoch 088: train loss 7.93340, test loss 1.49682, train acc 50.14600,test acc 58.10000, Saved custom_model..  with best acc 58.91000 in the epoch 076
+
+Epoch 089: train loss 7.96103, test loss 1.49959, train acc 49.93800,test acc 58.51000, Saved custom_model..  with best acc 58.91000 in the epoch 076
+
+Epoch 090: train loss 7.95933, test loss 1.54826, train acc 49.97600,test acc 56.92000, Saved custom_model..  with best acc 58.91000 in the epoch 076
+
+Epoch 091: train loss 7.88919, test loss 1.71020, train acc 50.17800,test acc 53.83000, Saved custom_model..  with best acc 58.91000 in the epoch 076
+
+Epoch 092: train loss 7.91634, test loss 1.60911, train acc 50.29600,test acc 55.59000, Saved custom_model..  with best acc 58.91000 in the epoch 076
+
+Epoch 093: train loss 7.88224, test loss 1.54410, train acc 50.46200,test acc 56.75000, Saved custom_model..  with best acc 58.91000 in the epoch 076
+
+Epoch 094: train loss 7.96083, test loss 1.47078, train acc 49.81200,test acc 59.01000, Saved custom_model..  with best acc 59.01000 in the epoch 094
+
+Epoch 095: train loss 7.86845, test loss 1.56772, train acc 50.44200,test acc 56.80000, Saved custom_model..  with best acc 59.01000 in the epoch 094
+
+Epoch 096: train loss 7.86560, test loss 1.42525, train acc 50.58600,test acc 60.38000, Saved custom_model..  with best acc 60.38000 in the epoch 096
+
+Epoch 097: train loss 7.87846, test loss 1.50949, train acc 50.71400,test acc 58.37000, Saved custom_model..  with best acc 60.38000 in the epoch 096
+
+Epoch 098: train loss 7.85163, test loss 1.43159, train acc 50.79600,test acc 60.17000, Saved custom_model..  with best acc 60.38000 in the epoch 096
+
+Epoch 099: train loss 7.82949, test loss 1.61382, train acc 51.05800,test acc 55.66000, Saved custom_model..  with best acc 60.38000 in the epoch 096
+
+Epoch 100: train loss 7.77954, test loss 1.66708, train acc 51.22600,test acc 54.48000, Saved custom_model..  with best acc 60.38000 in the epoch 096
+
+Epoch 101: train loss 7.80665, test loss 1.53081, train acc 51.02400,test acc 57.91000, Saved custom_model..  with best acc 60.38000 in the epoch 096
+
+Epoch 102: train loss 7.77880, test loss 1.42978, train acc 51.18600,test acc 60.28000, Saved custom_model..  with best acc 60.38000 in the epoch 096
+
+Epoch 103: train loss 7.78289, test loss 1.41420, train acc 51.18600,test acc 60.67000, Saved custom_model..  with best acc 60.67000 in the epoch 103
+
+Epoch 104: train loss 7.74778, test loss 1.62628, train acc 51.36800,test acc 55.69000, Saved custom_model..  with best acc 60.67000 in the epoch 103
+
+Epoch 105: train loss 7.77102, test loss 1.70910, train acc 51.19600,test acc 54.46000, Saved custom_model..  with best acc 60.67000 in the epoch 103
+
+Epoch 106: train loss 7.75017, test loss 1.61610, train acc 51.35200,test acc 55.22000, Saved custom_model..  with best acc 60.67000 in the epoch 103
+
+Epoch 107: train loss 7.71994, test loss 1.39983, train acc 51.81400,test acc 60.76000, Saved custom_model..  with best acc 60.76000 in the epoch 107
+
+Epoch 108: train loss 7.65181, test loss 1.48112, train acc 52.05600,test acc 59.28000, Saved custom_model..  with best acc 60.76000 in the epoch 107
+
+Epoch 109: train loss 7.68528, test loss 1.40130, train acc 51.87800,test acc 60.96000, Saved custom_model..  with best acc 60.96000 in the epoch 109
+
+Epoch 110: train loss 7.61740, test loss 1.46984, train acc 52.15200,test acc 58.59000, Saved custom_model..  with best acc 60.96000 in the epoch 109
+
+Epoch 111: train loss 7.60314, test loss 1.47425, train acc 52.34600,test acc 58.91000, Saved custom_model..  with best acc 60.96000 in the epoch 109
+
+Epoch 112: train loss 7.56278, test loss 1.48886, train acc 52.65600,test acc 58.48000, Saved custom_model..  with best acc 60.96000 in the epoch 109
+
+Epoch 113: train loss 7.60627, test loss 1.56660, train acc 52.34000,test acc 56.92000, Saved custom_model..  with best acc 60.96000 in the epoch 109
+
+Epoch 114: train loss 7.58252, test loss 1.48657, train acc 52.69400,test acc 59.10000, Saved custom_model..  with best acc 60.96000 in the epoch 109
+
+Epoch 115: train loss 7.58745, test loss 1.35739, train acc 52.68600,test acc 61.70000, Saved custom_model..  with best acc 61.70000 in the epoch 115
+
+Epoch 116: train loss 7.49938, test loss 1.41828, train acc 52.68000,test acc 60.80000, Saved custom_model..  with best acc 61.70000 in the epoch 115
+
+Epoch 117: train loss 7.55738, test loss 1.43029, train acc 52.45800,test acc 60.55000, Saved custom_model..  with best acc 61.70000 in the epoch 115
+
+Epoch 118: train loss 7.51693, test loss 1.42937, train acc 52.99800,test acc 60.02000, Saved custom_model..  with best acc 61.70000 in the epoch 115
+
+Epoch 119: train loss 7.50352, test loss 1.45301, train acc 53.15200,test acc 59.63000, Saved custom_model..  with best acc 61.70000 in the epoch 115
+
+Epoch 120: train loss 7.47154, test loss 1.41732, train acc 53.10200,test acc 60.73000, Saved custom_model..  with best acc 61.70000 in the epoch 115
+
+Epoch 121: train loss 7.48842, test loss 1.38151, train acc 52.97800,test acc 62.28000, Saved custom_model..  with best acc 62.28000 in the epoch 121
+
+Epoch 122: train loss 7.46542, test loss 1.49772, train acc 53.09400,test acc 58.30000, Saved custom_model..  with best acc 62.28000 in the epoch 121
+
+Epoch 123: train loss 7.46016, test loss 1.47451, train acc 53.56400,test acc 59.66000, Saved custom_model..  with best acc 62.28000 in the epoch 121
+
+Epoch 124: train loss 7.40538, test loss 1.36954, train acc 53.68400,test acc 61.89000, Saved custom_model..  with best acc 62.28000 in the epoch 121
+
+Epoch 125: train loss 7.47552, test loss 1.36205, train acc 53.23000,test acc 62.35000, Saved custom_model..  with best acc 62.35000 in the epoch 125
+
+Epoch 126: train loss 7.38285, test loss 1.34943, train acc 53.68400,test acc 61.58000, Saved custom_model..  with best acc 62.35000 in the epoch 125
+
+Epoch 127: train loss 7.41979, test loss 1.40311, train acc 53.50000,test acc 60.56000, Saved custom_model..  with best acc 62.35000 in the epoch 125
+
+Epoch 128: train loss 7.38960, test loss 1.35140, train acc 53.68800,test acc 62.51000, Saved custom_model..  with best acc 62.51000 in the epoch 128
+
+Epoch 129: train loss 7.29557, test loss 1.38660, train acc 54.18800,test acc 61.08000, Saved custom_model..  with best acc 62.51000 in the epoch 128
+
+Epoch 130: train loss 7.35679, test loss 1.44639, train acc 54.03000,test acc 59.91000, Saved custom_model..  with best acc 62.51000 in the epoch 128
+
+Epoch 131: train loss 7.30791, test loss 1.37380, train acc 54.04600,test acc 61.32000, Saved custom_model..  with best acc 62.51000 in the epoch 128
+
+Epoch 132: train loss 7.30376, test loss 1.42170, train acc 54.19600,test acc 61.06000, Saved custom_model..  with best acc 62.51000 in the epoch 128
+
+Epoch 133: train loss 7.30097, test loss 1.30701, train acc 54.26200,test acc 63.79000, Saved custom_model..  with best acc 63.79000 in the epoch 133
+
+Epoch 134: train loss 7.26596, test loss 1.34405, train acc 54.59400,test acc 62.68000, Saved custom_model..  with best acc 63.79000 in the epoch 133
+
+Epoch 135: train loss 7.18818, test loss 1.30771, train acc 55.06800,test acc 62.81000, Saved custom_model..  with best acc 63.79000 in the epoch 133
+
+Epoch 136: train loss 7.22106, test loss 1.30747, train acc 54.91600,test acc 63.43000, Saved custom_model..  with best acc 63.79000 in the epoch 133
+
+Epoch 137: train loss 7.20817, test loss 1.38391, train acc 55.03800,test acc 61.03000, Saved custom_model..  with best acc 63.79000 in the epoch 133
+
+Epoch 138: train loss 7.14404, test loss 1.27448, train acc 55.15000,test acc 64.08000, Saved custom_model..  with best acc 64.08000 in the epoch 138
+
+Epoch 139: train loss 7.17022, test loss 1.27402, train acc 54.97000,test acc 63.98000, Saved custom_model..  with best acc 64.08000 in the epoch 138
+
+Epoch 140: train loss 7.16778, test loss 1.34084, train acc 55.32600,test acc 62.64000, Saved custom_model..  with best acc 64.08000 in the epoch 138
+
+Epoch 141: train loss 7.14870, test loss 1.29666, train acc 55.23600,test acc 63.92000, Saved custom_model..  with best acc 64.08000 in the epoch 138
+
+Epoch 142: train loss 7.08845, test loss 1.28372, train acc 55.64800,test acc 63.39000, Saved custom_model..  with best acc 64.08000 in the epoch 138
+
+Epoch 143: train loss 7.17272, test loss 1.29559, train acc 55.23200,test acc 63.68000, Saved custom_model..  with best acc 64.08000 in the epoch 138
+
+Epoch 144: train loss 7.08124, test loss 1.29708, train acc 56.14200,test acc 63.73000, Saved custom_model..  with best acc 64.08000 in the epoch 138
+
+Epoch 145: train loss 7.09833, test loss 1.27423, train acc 55.80600,test acc 63.63000, Saved custom_model..  with best acc 64.08000 in the epoch 138
+
+Epoch 146: train loss 7.04343, test loss 1.31868, train acc 56.08800,test acc 63.41000, Saved custom_model..  with best acc 64.08000 in the epoch 138
+
+Epoch 147: train loss 7.05928, test loss 1.33425, train acc 55.89600,test acc 63.18000, Saved custom_model..  with best acc 64.08000 in the epoch 138
+
+Epoch 148: train loss 6.99806, test loss 1.27054, train acc 56.24800,test acc 64.45000, Saved custom_model..  with best acc 64.45000 in the epoch 148
+
+Epoch 149: train loss 6.97279, test loss 1.34037, train acc 56.45000,test acc 62.25000, Saved custom_model..  with best acc 64.45000 in the epoch 148
+
+Epoch 150: train loss 6.99798, test loss 1.27465, train acc 56.27800,test acc 64.12000, Saved custom_model..  with best acc 64.45000 in the epoch 148
+
+Epoch 151: train loss 6.98656, test loss 1.24779, train acc 56.55400,test acc 64.81000, Saved custom_model..  with best acc 64.81000 in the epoch 151
+
+Epoch 152: train loss 6.94516, test loss 1.27105, train acc 56.80400,test acc 64.63000, Saved custom_model..  with best acc 64.81000 in the epoch 151
+
+Epoch 153: train loss 6.94263, test loss 1.36227, train acc 56.76000,test acc 62.42000, Saved custom_model..  with best acc 64.81000 in the epoch 151
+
+Epoch 154: train loss 6.91786, test loss 1.28273, train acc 56.81400,test acc 63.59000, Saved custom_model..  with best acc 64.81000 in the epoch 151
+
+Epoch 155: train loss 6.86820, test loss 1.19884, train acc 57.25400,test acc 66.37000, Saved custom_model..  with best acc 66.37000 in the epoch 155
+
+Epoch 156: train loss 6.91227, test loss 1.29936, train acc 56.99600,test acc 63.84000, Saved custom_model..  with best acc 66.37000 in the epoch 155
+
+Epoch 157: train loss 6.87916, test loss 1.26733, train acc 57.34600,test acc 64.60000, Saved custom_model..  with best acc 66.37000 in the epoch 155
+
+Epoch 158: train loss 6.83191, test loss 1.22525, train acc 57.26600,test acc 65.57000, Saved custom_model..  with best acc 66.37000 in the epoch 155
+
+Epoch 159: train loss 6.81463, test loss 1.25908, train acc 57.66400,test acc 64.57000, Saved custom_model..  with best acc 66.37000 in the epoch 155
+
+Epoch 160: train loss 6.78754, test loss 1.24116, train acc 57.68000,test acc 65.22000, Saved custom_model..  with best acc 66.37000 in the epoch 155
+
+Epoch 161: train loss 6.77985, test loss 1.29604, train acc 57.90000,test acc 63.85000, Saved custom_model..  with best acc 66.37000 in the epoch 155
+
+Epoch 162: train loss 6.72550, test loss 1.19346, train acc 57.93400,test acc 65.99000, Saved custom_model..  with best acc 66.37000 in the epoch 155
+
+Epoch 163: train loss 6.76250, test loss 1.18977, train acc 57.37800,test acc 66.37000, Saved custom_model..  with best acc 66.37000 in the epoch 155
+
+Epoch 164: train loss 6.72563, test loss 1.24786, train acc 58.05800,test acc 64.92000, Saved custom_model..  with best acc 66.37000 in the epoch 155
+
+Epoch 165: train loss 6.70630, test loss 1.16226, train acc 58.39800,test acc 67.30000, Saved custom_model..  with best acc 67.30000 in the epoch 165
+
+Epoch 166: train loss 6.66672, test loss 1.19574, train acc 58.42000,test acc 66.29000, Saved custom_model..  with best acc 67.30000 in the epoch 165
+
+Epoch 167: train loss 6.65252, test loss 1.19139, train acc 58.74800,test acc 66.03000, Saved custom_model..  with best acc 67.30000 in the epoch 165
+
+Epoch 168: train loss 6.64833, test loss 1.18730, train acc 58.60600,test acc 66.34000, Saved custom_model..  with best acc 67.30000 in the epoch 165
+
+Epoch 169: train loss 6.61855, test loss 1.21966, train acc 58.73400,test acc 65.50000, Saved custom_model..  with best acc 67.30000 in the epoch 165
+
+Epoch 170: train loss 6.62899, test loss 1.22059, train acc 58.81000,test acc 65.64000, Saved custom_model..  with best acc 67.30000 in the epoch 165
+
+Epoch 171: train loss 6.57264, test loss 1.16877, train acc 59.18000,test acc 66.81000, Saved custom_model..  with best acc 67.30000 in the epoch 165
+
+Epoch 172: train loss 6.50992, test loss 1.21799, train acc 59.65400,test acc 65.63000, Saved custom_model..  with best acc 67.30000 in the epoch 165
+
+Epoch 173: train loss 6.50919, test loss 1.16161, train acc 59.65600,test acc 67.05000, Saved custom_model..  with best acc 67.30000 in the epoch 165
+
+Epoch 174: train loss 6.50457, test loss 1.18977, train acc 59.68800,test acc 66.84000, Saved custom_model..  with best acc 67.30000 in the epoch 165
+
+Epoch 175: train loss 6.49138, test loss 1.23560, train acc 59.72800,test acc 65.48000, Saved custom_model..  with best acc 67.30000 in the epoch 165
+
+Epoch 176: train loss 6.44380, test loss 1.15813, train acc 60.06600,test acc 67.22000, Saved custom_model..  with best acc 67.30000 in the epoch 165
+
+Epoch 177: train loss 6.42238, test loss 1.14417, train acc 60.07200,test acc 67.50000, Saved custom_model..  with best acc 67.50000 in the epoch 177
+
+Epoch 178: train loss 6.40311, test loss 1.21307, train acc 60.30600,test acc 66.04000, Saved custom_model..  with best acc 67.50000 in the epoch 177
+
+Epoch 179: train loss 6.41037, test loss 1.13647, train acc 60.29600,test acc 67.94000, Saved custom_model..  with best acc 67.94000 in the epoch 179
+
+Epoch 180: train loss 6.37220, test loss 1.12953, train acc 60.59600,test acc 67.76000, Saved custom_model..  with best acc 67.94000 in the epoch 179
+
+Epoch 181: train loss 6.38884, test loss 1.22944, train acc 60.23000,test acc 65.62000, Saved custom_model..  with best acc 67.94000 in the epoch 179
+
+Epoch 182: train loss 6.29994, test loss 1.11419, train acc 60.90000,test acc 68.65000, Saved custom_model..  with best acc 68.65000 in the epoch 182
+
+Epoch 183: train loss 6.27899, test loss 1.14805, train acc 61.21400,test acc 68.08000, Saved custom_model..  with best acc 68.65000 in the epoch 182
+
+Epoch 184: train loss 6.27884, test loss 1.15448, train acc 61.37800,test acc 67.76000, Saved custom_model..  with best acc 68.65000 in the epoch 182
+
+Epoch 185: train loss 6.28458, test loss 1.17463, train acc 61.25000,test acc 66.70000, Saved custom_model..  with best acc 68.65000 in the epoch 182
+
+Epoch 186: train loss 6.25282, test loss 1.13163, train acc 61.54200,test acc 67.66000, Saved custom_model..  with best acc 68.65000 in the epoch 182
+
+Epoch 187: train loss 6.19429, test loss 1.16416, train acc 61.62000,test acc 67.05000, Saved custom_model..  with best acc 68.65000 in the epoch 182
+
+Epoch 188: train loss 6.18818, test loss 1.13394, train acc 61.89800,test acc 67.87000, Saved custom_model..  with best acc 68.65000 in the epoch 182
+
+Epoch 189: train loss 6.16908, test loss 1.10888, train acc 62.02400,test acc 68.28000, Saved custom_model..  with best acc 68.65000 in the epoch 182
+
+Epoch 190: train loss 6.14644, test loss 1.08954, train acc 62.01400,test acc 68.64000, Saved custom_model..  with best acc 68.65000 in the epoch 182
+
+Epoch 191: train loss 6.13848, test loss 1.12010, train acc 62.24000,test acc 68.19000, Saved custom_model..  with best acc 68.65000 in the epoch 182
+
+Epoch 192: train loss 6.07320, test loss 1.13498, train acc 62.68400,test acc 67.66000, Saved custom_model..  with best acc 68.65000 in the epoch 182
+
+Epoch 193: train loss 6.05935, test loss 1.06568, train acc 62.71000,test acc 69.66000, Saved custom_model..  with best acc 69.66000 in the epoch 193
+
+Epoch 194: train loss 6.03888, test loss 1.12738, train acc 62.93200,test acc 68.32000, Saved custom_model..  with best acc 69.66000 in the epoch 193
+
+Epoch 195: train loss 5.99763, test loss 1.08426, train acc 63.06200,test acc 69.42000, Saved custom_model..  with best acc 69.66000 in the epoch 193
+
+Epoch 196: train loss 5.96635, test loss 1.03629, train acc 63.41800,test acc 70.35000, Saved custom_model..  with best acc 70.35000 in the epoch 196
+
+Epoch 197: train loss 5.97964, test loss 1.05666, train acc 63.21600,test acc 69.99000, Saved custom_model..  with best acc 70.35000 in the epoch 196
+
+Epoch 198: train loss 6.01172, test loss 1.11601, train acc 63.27800,test acc 68.24000, Saved custom_model..  with best acc 70.35000 in the epoch 196
+
+Epoch 199: train loss 5.91737, test loss 1.04308, train acc 64.05800,test acc 70.21000, Saved custom_model..  with best acc 70.35000 in the epoch 196
+
+Epoch 200: train loss 5.89482, test loss 1.07977, train acc 64.19600,test acc 69.71000, Saved custom_model..  with best acc 70.35000 in the epoch 196
+
+Epoch 201: train loss 5.84562, test loss 1.04934, train acc 64.60600,test acc 70.00000, Saved custom_model..  with best acc 70.35000 in the epoch 196
+
+Epoch 202: train loss 5.89851, test loss 1.04681, train acc 63.99000,test acc 70.13000, Saved custom_model..  with best acc 70.35000 in the epoch 196
+
+Epoch 203: train loss 5.83078, test loss 1.07661, train acc 64.48800,test acc 69.19000, Saved custom_model..  with best acc 70.35000 in the epoch 196
+
+Epoch 204: train loss 5.81114, test loss 1.06200, train acc 64.58600,test acc 70.30000, Saved custom_model..  with best acc 70.35000 in the epoch 196
+
+Epoch 205: train loss 5.76877, test loss 1.14368, train acc 64.69400,test acc 68.04000, Saved custom_model..  with best acc 70.35000 in the epoch 196
+
+Epoch 206: train loss 5.74091, test loss 1.03488, train acc 64.99800,test acc 70.56000, Saved custom_model..  with best acc 70.56000 in the epoch 206
+
+Epoch 207: train loss 5.69659, test loss 1.04211, train acc 65.60000,test acc 70.34000, Saved custom_model..  with best acc 70.56000 in the epoch 206
+
+Epoch 208: train loss 5.68395, test loss 1.01600, train acc 65.35000,test acc 70.85000, Saved custom_model..  with best acc 70.85000 in the epoch 208
+
+Epoch 209: train loss 5.68890, test loss 1.00429, train acc 65.44600,test acc 71.55000, Saved custom_model..  with best acc 71.55000 in the epoch 209
+
+Epoch 210: train loss 5.60890, test loss 1.02175, train acc 66.01400,test acc 70.62000, Saved custom_model..  with best acc 71.55000 in the epoch 209
+
+Epoch 211: train loss 5.55399, test loss 0.99053, train acc 66.35400,test acc 72.06000, Saved custom_model..  with best acc 72.06000 in the epoch 211
+
+Epoch 212: train loss 5.57505, test loss 1.03895, train acc 66.30200,test acc 70.33000, Saved custom_model..  with best acc 72.06000 in the epoch 211
+
+Epoch 213: train loss 5.59971, test loss 0.98480, train acc 66.00000,test acc 72.12000, Saved custom_model..  with best acc 72.12000 in the epoch 213
+
+Epoch 214: train loss 5.51950, test loss 0.99640, train acc 66.96400,test acc 70.98000, Saved custom_model..  with best acc 72.12000 in the epoch 213
+
+Epoch 215: train loss 5.49938, test loss 0.98815, train acc 66.79800,test acc 71.73000, Saved custom_model..  with best acc 72.12000 in the epoch 213
+
+Epoch 216: train loss 5.47113, test loss 0.98368, train acc 67.06600,test acc 71.81000, Saved custom_model..  with best acc 72.12000 in the epoch 213
+
+Epoch 217: train loss 5.46879, test loss 0.97969, train acc 66.99400,test acc 71.39000, Saved custom_model..  with best acc 72.12000 in the epoch 213
+
+Epoch 218: train loss 5.42942, test loss 1.04946, train acc 67.43000,test acc 70.79000, Saved custom_model..  with best acc 72.12000 in the epoch 213
+
+Epoch 219: train loss 5.38845, test loss 0.98820, train acc 67.59000,test acc 71.77000, Saved custom_model..  with best acc 72.12000 in the epoch 213
+
+Epoch 220: train loss 5.35331, test loss 0.98192, train acc 67.96000,test acc 71.81000, Saved custom_model..  with best acc 72.12000 in the epoch 213
+
+Epoch 221: train loss 5.34226, test loss 0.95181, train acc 68.14600,test acc 72.79000, Saved custom_model..  with best acc 72.79000 in the epoch 221
+
+Epoch 222: train loss 5.32582, test loss 0.95960, train acc 67.91200,test acc 72.52000, Saved custom_model..  with best acc 72.79000 in the epoch 221
+
+Epoch 223: train loss 5.24369, test loss 0.94337, train acc 68.70600,test acc 73.20000, Saved custom_model..  with best acc 73.20000 in the epoch 223
+
+Epoch 224: train loss 5.23808, test loss 0.91160, train acc 68.87400,test acc 73.84000, Saved custom_model..  with best acc 73.84000 in the epoch 224
+
+Epoch 225: train loss 5.22891, test loss 0.92160, train acc 68.94000,test acc 73.53000, Saved custom_model..  with best acc 73.84000 in the epoch 224
+
+Epoch 226: train loss 5.14244, test loss 0.93626, train acc 69.53400,test acc 73.17000, Saved custom_model..  with best acc 73.84000 in the epoch 224
+
+Epoch 227: train loss 5.17850, test loss 0.94216, train acc 69.56800,test acc 73.18000, Saved custom_model..  with best acc 73.84000 in the epoch 224
+
+Epoch 228: train loss 5.15318, test loss 0.94509, train acc 69.49800,test acc 73.20000, Saved custom_model..  with best acc 73.84000 in the epoch 224
+
+Epoch 229: train loss 5.11458, test loss 0.93673, train acc 69.86600,test acc 73.23000, Saved custom_model..  with best acc 73.84000 in the epoch 224
+
+Epoch 230: train loss 5.09295, test loss 0.94294, train acc 69.78200,test acc 73.32000, Saved custom_model..  with best acc 73.84000 in the epoch 224
+
+Epoch 231: train loss 5.06172, test loss 0.90988, train acc 70.35000,test acc 73.54000, Saved custom_model..  with best acc 73.84000 in the epoch 224
+
+Epoch 232: train loss 4.98352, test loss 0.91692, train acc 70.86600,test acc 73.85000, Saved custom_model..  with best acc 73.85000 in the epoch 232
+
+Epoch 233: train loss 5.01245, test loss 0.90226, train acc 70.69600,test acc 74.21000, Saved custom_model..  with best acc 74.21000 in the epoch 233
+
+Epoch 234: train loss 4.92586, test loss 0.89015, train acc 71.20600,test acc 74.73000, Saved custom_model..  with best acc 74.73000 in the epoch 234
+
+Epoch 235: train loss 4.93374, test loss 0.91170, train acc 71.41400,test acc 73.76000, Saved custom_model..  with best acc 74.73000 in the epoch 234
+
+Epoch 236: train loss 4.91131, test loss 0.91687, train acc 71.42800,test acc 74.26000, Saved custom_model..  with best acc 74.73000 in the epoch 234
+
+Epoch 237: train loss 4.87683, test loss 0.89661, train acc 71.57400,test acc 74.34000, Saved custom_model..  with best acc 74.73000 in the epoch 234
+
+Epoch 238: train loss 4.83269, test loss 0.89156, train acc 72.05200,test acc 74.47000, Saved custom_model..  with best acc 74.73000 in the epoch 234
+
+Epoch 239: train loss 4.81453, test loss 0.90432, train acc 72.01400,test acc 74.54000, Saved custom_model..  with best acc 74.73000 in the epoch 234
+
+Epoch 240: train loss 4.77951, test loss 0.88166, train acc 72.63000,test acc 74.87000, Saved custom_model..  with best acc 74.87000 in the epoch 240
+
+Epoch 241: train loss 4.71193, test loss 0.88453, train acc 73.22000,test acc 74.41000, Saved custom_model..  with best acc 74.87000 in the epoch 240
+
+Epoch 242: train loss 4.71826, test loss 0.86384, train acc 72.84600,test acc 75.12000, Saved custom_model..  with best acc 75.12000 in the epoch 242
+
+Epoch 243: train loss 4.65345, test loss 0.84239, train acc 73.38000,test acc 75.37000, Saved custom_model..  with best acc 75.37000 in the epoch 243
+
+Epoch 244: train loss 4.66098, test loss 0.86652, train acc 73.50000,test acc 75.19000, Saved custom_model..  with best acc 75.37000 in the epoch 243
+
+Epoch 245: train loss 4.60794, test loss 0.86469, train acc 73.72800,test acc 75.45000, Saved custom_model..  with best acc 75.45000 in the epoch 245
+
+Epoch 246: train loss 4.58685, test loss 0.84426, train acc 73.99800,test acc 75.84000, Saved custom_model..  with best acc 75.84000 in the epoch 246
+
+Epoch 247: train loss 4.57845, test loss 0.83598, train acc 74.03000,test acc 76.12000, Saved custom_model..  with best acc 76.12000 in the epoch 247
+
+Epoch 248: train loss 4.51346, test loss 0.86012, train acc 74.61600,test acc 75.12000, Saved custom_model..  with best acc 76.12000 in the epoch 247
+
+Epoch 249: train loss 4.44764, test loss 0.83301, train acc 74.95400,test acc 76.35000, Saved custom_model..  with best acc 76.35000 in the epoch 249
+
+Epoch 250: train loss 4.44284, test loss 0.83264, train acc 75.03800,test acc 76.07000, Saved custom_model..  with best acc 76.35000 in the epoch 249
+
+Epoch 251: train loss 4.44346, test loss 0.83452, train acc 75.22200,test acc 76.32000, Saved custom_model..  with best acc 76.35000 in the epoch 249
+
+Epoch 252: train loss 4.38049, test loss 0.81914, train acc 75.72800,test acc 76.31000, Saved custom_model..  with best acc 76.35000 in the epoch 249
+
+Epoch 253: train loss 4.35220, test loss 0.82668, train acc 75.93800,test acc 76.72000, Saved custom_model..  with best acc 76.72000 in the epoch 253
+
+Epoch 254: train loss 4.31148, test loss 0.80633, train acc 76.33800,test acc 76.84000, Saved custom_model..  with best acc 76.84000 in the epoch 254
+
+Epoch 255: train loss 4.29874, test loss 0.82152, train acc 76.35400,test acc 76.74000, Saved custom_model..  with best acc 76.84000 in the epoch 254
+
+Epoch 256: train loss 4.26177, test loss 0.80865, train acc 76.68600,test acc 76.79000, Saved custom_model..  with best acc 76.84000 in the epoch 254
+
+Epoch 257: train loss 4.23037, test loss 0.80561, train acc 77.21200,test acc 77.23000, Saved custom_model..  with best acc 77.23000 in the epoch 257
+
+Epoch 258: train loss 4.17563, test loss 0.79055, train acc 77.34800,test acc 77.20000, Saved custom_model..  with best acc 77.23000 in the epoch 257
+
+Epoch 259: train loss 4.17644, test loss 0.79911, train acc 77.19400,test acc 77.31000, Saved custom_model..  with best acc 77.31000 in the epoch 259
+
+Epoch 260: train loss 4.15347, test loss 0.80622, train acc 77.61600,test acc 76.94000, Saved custom_model..  with best acc 77.31000 in the epoch 259
+
+Epoch 261: train loss 4.12065, test loss 0.79661, train acc 77.85600,test acc 77.31000, Saved custom_model..  with best acc 77.31000 in the epoch 259
+
+Epoch 262: train loss 4.10170, test loss 0.79528, train acc 78.07600,test acc 77.16000, Saved custom_model..  with best acc 77.31000 in the epoch 259
+
+Epoch 263: train loss 4.05343, test loss 0.77979, train acc 78.52800,test acc 77.68000, Saved custom_model..  with best acc 77.68000 in the epoch 263
+
+Epoch 264: train loss 3.98390, test loss 0.79207, train acc 78.81200,test acc 77.58000, Saved custom_model..  with best acc 77.68000 in the epoch 263
+
+Epoch 265: train loss 3.98215, test loss 0.77637, train acc 79.03600,test acc 77.99000, Saved custom_model..  with best acc 77.99000 in the epoch 265
+
+Epoch 266: train loss 3.95878, test loss 0.77868, train acc 79.29600,test acc 77.83000, Saved custom_model..  with best acc 77.99000 in the epoch 265
+
+Epoch 267: train loss 3.91702, test loss 0.76366, train acc 79.66600,test acc 78.33000, Saved custom_model..  with best acc 78.33000 in the epoch 267
+
+Epoch 268: train loss 3.89730, test loss 0.77117, train acc 79.92000,test acc 77.98000, Saved custom_model..  with best acc 78.33000 in the epoch 267
+
+Epoch 269: train loss 3.84312, test loss 0.77781, train acc 80.18600,test acc 78.08000, Saved custom_model..  with best acc 78.33000 in the epoch 267
+
+Epoch 270: train loss 3.84916, test loss 0.74423, train acc 80.19200,test acc 78.76000, Saved custom_model..  with best acc 78.76000 in the epoch 270
+
+Epoch 271: train loss 3.81899, test loss 0.75959, train acc 80.36600,test acc 78.25000, Saved custom_model..  with best acc 78.76000 in the epoch 270
+
+Epoch 272: train loss 3.79556, test loss 0.75548, train acc 80.64600,test acc 78.36000, Saved custom_model..  with best acc 78.76000 in the epoch 270
+
+Epoch 273: train loss 3.82219, test loss 0.75737, train acc 80.37600,test acc 78.69000, Saved custom_model..  with best acc 78.76000 in the epoch 270
+
+Epoch 274: train loss 3.75450, test loss 0.74890, train acc 81.02000,test acc 78.67000, Saved custom_model..  with best acc 78.76000 in the epoch 270
+
+Epoch 275: train loss 3.74469, test loss 0.74620, train acc 81.18600,test acc 78.94000, Saved custom_model..  with best acc 78.94000 in the epoch 275
+
+Epoch 276: train loss 3.71461, test loss 0.75580, train acc 81.49200,test acc 78.39000, Saved custom_model..  with best acc 78.94000 in the epoch 275
+
+Epoch 277: train loss 3.64025, test loss 0.73747, train acc 82.05200,test acc 78.97000, Saved custom_model..  with best acc 78.97000 in the epoch 277
+
+Epoch 278: train loss 3.64897, test loss 0.73695, train acc 81.70400,test acc 78.86000, Saved custom_model..  with best acc 78.97000 in the epoch 277
+
+Epoch 279: train loss 3.65075, test loss 0.73676, train acc 82.00400,test acc 78.97000, Saved custom_model..  with best acc 78.97000 in the epoch 277
+
+Epoch 280: train loss 3.60653, test loss 0.73119, train acc 82.07800,test acc 79.26000, Saved custom_model..  with best acc 79.26000 in the epoch 280
+
+Epoch 281: train loss 3.60023, test loss 0.72834, train acc 82.21600,test acc 79.15000, Saved custom_model..  with best acc 79.26000 in the epoch 280
+
+Epoch 282: train loss 3.60083, test loss 0.72390, train acc 82.40800,test acc 79.27000, Saved custom_model..  with best acc 79.27000 in the epoch 282
+
+Epoch 283: train loss 3.55798, test loss 0.72861, train acc 82.40200,test acc 79.57000, Saved custom_model..  with best acc 79.57000 in the epoch 283
+
+Epoch 284: train loss 3.55889, test loss 0.73225, train acc 82.52000,test acc 78.99000, Saved custom_model..  with best acc 79.57000 in the epoch 283
+
+Epoch 285: train loss 3.53898, test loss 0.73020, train acc 82.53600,test acc 79.14000, Saved custom_model..  with best acc 79.57000 in the epoch 283
+
+Epoch 286: train loss 3.48409, test loss 0.72433, train acc 83.03800,test acc 79.16000, Saved custom_model..  with best acc 79.57000 in the epoch 283
+
+Epoch 287: train loss 3.52605, test loss 0.72272, train acc 82.87600,test acc 79.56000, Saved custom_model..  with best acc 79.57000 in the epoch 283
+
+Epoch 288: train loss 3.48788, test loss 0.72715, train acc 83.26600,test acc 79.37000, Saved custom_model..  with best acc 79.57000 in the epoch 283
+
+Epoch 289: train loss 3.52917, test loss 0.72358, train acc 82.83800,test acc 79.26000, Saved custom_model..  with best acc 79.57000 in the epoch 283
+
+Epoch 290: train loss 3.48453, test loss 0.71961, train acc 82.95200,test acc 79.55000, Saved custom_model..  with best acc 79.57000 in the epoch 283
+
+Epoch 291: train loss 3.46466, test loss 0.72297, train acc 83.12800,test acc 79.42000, Saved custom_model..  with best acc 79.57000 in the epoch 283
+
+Epoch 292: train loss 3.45937, test loss 0.72000, train acc 83.21600,test acc 79.50000, Saved custom_model..  with best acc 79.57000 in the epoch 283
+
+Epoch 293: train loss 3.44903, test loss 0.71781, train acc 83.40800,test acc 79.68000, Saved custom_model..  with best acc 79.68000 in the epoch 293
+
+Epoch 294: train loss 3.42576, test loss 0.71868, train acc 83.41000,test acc 79.72000, Saved custom_model..  with best acc 79.72000 in the epoch 294
+
+Epoch 295: train loss 3.43012, test loss 0.71400, train acc 83.44200,test acc 79.83000, Saved custom_model..  with best acc 79.83000 in the epoch 295
+
+Epoch 296: train loss 3.43543, test loss 0.71320, train acc 83.42400,test acc 80.20000, Saved custom_model..  with best acc 80.20000 in the epoch 296
+
+Epoch 297: train loss 3.44596, test loss 0.71670, train acc 83.24200,test acc 79.88000, Saved custom_model..  with best acc 80.20000 in the epoch 296
+
+Epoch 298: train loss 3.44926, test loss 0.72501, train acc 83.41800,test acc 79.36000, Saved custom_model..  with best acc 80.20000 in the epoch 296
+
+Epoch 299: train loss 3.43991, test loss 0.72504, train acc 83.43200,test acc 79.54000, Saved custom_model..  with best acc 80.20000 in the epoch 296
+
+Finish training: the best validation accuracy of SNN is 80.2 in epoch 296. 
+ The relate checkpoint path: ./log/cifar100_cut_aug-snn_t6_resnet18_opt_sgdm_wd_0.0005_cas_6/model_weights.pth
